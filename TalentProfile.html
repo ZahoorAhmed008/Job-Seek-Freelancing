@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talent Profile</title>
+    <link rel="stylesheet" href="TalentProfile.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>JobSeek</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="FindTalent.html">Find Talent</a></li>
+                    <li><a href="FindWork.html">Find Work</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="profile-container">
+            <div class="profile-header">
+                <img src="./Assets/Zahoor_Ahmed.png" alt="Profile Picture" class="profile-picture">
+                <div class="profile-info">
+                    <h2>Zahoor Ahmed</h2>
+                    <p>Expert Web Developer</p>
+                    <p><strong>Location:</strong> Karachi, Pakistan</p>
+                </div>
+            </div>
+
+            <div class="profile-details">
+                <h3>About Me</h3>
+                <p> I am Zahoor Ahmed, a BE Software Engineering student at Mehran University of Engineering and Technology Jamshoro, with three years of experience in graphic design, UI/UX design, web development, and WordPress development. As the Director of Graphic Design at the Software Engineering Society, I lead creative projects and mentor emerging talents. My background includes roles at Rusha's and CognoRise InfoTech, along with various internships and freelance work, reflecting my commitment to creating visually appealing and user-centric solutions. I am passionate about pushing creative boundaries and excited to continue growing in the field.</p>
+
+                <h3>Skills</h3>
+                <ul class="skills-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+
+                <h3>Experience</h3>
+                <ul class="experience-list">
+                    <li>Software Engineer at MUET Jamshoro (2023-Present)</li>
+                    <li>Frontend Developer at CodeAlfa (2022-2023)</li>
+                    <li>UI/UX Designer at CognoRise (2021-2022)</li>
+                </ul>
+
+                <h3>Education</h3>
+                <ul class="education-list">
+                    <li>Bachelor of Science in Software Engineering - Mehran University Jamshoro (2021-2025)</li>
+                </ul>
+
+                <h3>Portfolio</h3>
+                <div class="portfolio-section">
+                    <div class="portfolio-item">
+                        <img src="./Assets/Food.jpeg" alt="Project 1">
+                        <h4>Project 1</h4>
+                        <p>Description of Project 1.</p>
+                        <a href="#">View Details</a>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="./Assets/Design.jpeg" alt="Project 2">
+                        <h4>Project 2</h4>
+                        <p>Description of Project 2.</p>
+                        <a href="#">View Details</a>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="./Assets/App.jpeg" alt="Project 2">
+                        <h4>Project 2</h4>
+                        <p>Description of Project 2.</p>
+                        <a href="#">View Details</a>
+                    </div>
+                </div>
+
+                <h3>Testimonials</h3>
+                <div class="testimonials-section">
+                    <div class="testimonial">
+                        <p>"Zahoor is a talented developer with a great work ethic. His skills in front-end development are exceptional." - Client A</p>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Working with Zahoor was a pleasure. He delivered high-quality work and exceeded expectations." - Client B</p>
+                    </div>
+                </div>
+
+                <h3>Contact</h3>
+                <p>Email: <a href="mailto:za0389188@gmail.com">za0389188@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/zahoor-ahmed" target="_blank">Zahoor Ahmed</a></p>
+                
+                <div class="cta">
+                    <a href="mailto:za0389188@gmail.com" class="cta-button">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Talent Finder. All rights reserved.</p>
+    </footer>
+
+    <script>
+        
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
